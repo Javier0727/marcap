@@ -61,5 +61,26 @@
 .elementoschat{
     height: 90%;
     width: 80%;
-    background-color: #12113a;
+    /* background-color: #12113a; */
+    display: flex;
+    align-items: center;
+
+}
+.imagperfil{
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+}
+.inputstyle{
+    height: 40%;
+    width: 70%;
+    border-radius: 50px;
+    border: 0;
+}
+.coloriconos{
+    color: #797979;
+    cursor: pointer;
+    /* background-color: red; */
 }
