@@ -35,9 +35,9 @@
     overflow: auto;
 }
 .upchat{
-    background-color: #cfcfcf;
+    background-color: #f2f2f2;
     width: 100%;
-    height: 10%;
+    height: 8%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,11 +45,17 @@
 .bchat{
     background-color: #ffffff;
     width: 100%;
-    height: 80%;
+    height: 82%;
     overflow: auto;
 }
+.bchat::-webkit-scrollbar{
+    width: 5px;
+}
+.bchat::-webkit-scrollbar-thumb{
+    background: #49a9ea;
+}
 .inpchat{
-    background-color: #cfcfcf;
+    background-color: #f2f2f2;
     width: 80%;
     height: 10%;
     position: absolute;
@@ -60,7 +66,7 @@
 }
 .elementoschat{
     height: 90%;
-    width: 80%;
+    width: 90%;
     /* background-color: #12113a; */
     display: flex;
     align-items: center;
@@ -75,12 +81,40 @@
 }
 .inputstyle{
     height: 40%;
-    width: 70%;
-    border-radius: 50px;
+    width: 80%;
+    border-radius: 10px;
     border: 0;
+    padding-left: 1%;
+}
+.inputstyle::-webkit-input-placeholder{
+    color: #797979;
+}
+.inputstyle2{
+    background: url("../img/search-solid.svg") no-repeat scroll 0 0 transparent;
+    background-position: center right;
+    background-size: 6%;
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    border: 0;
+    padding-left: 1%;
+    margin-left: 5%;
+}
+.inputstyle2::-webkit-input-placeholder{
+    color: #797979;
 }
 .coloriconos{
     color: #797979;
     cursor: pointer;
-    /* background-color: red; */
+}
+.coloriconos2{
+    color: #49a9ea;
+    cursor: pointer;
+}
+.espaciochat{
+    margin-right: 2%;
+}
+.context{
+    margin-left: 15%;
+    margin-right: 15%;
 }
