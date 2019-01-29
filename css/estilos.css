@@ -8,6 +8,7 @@
     background-color: #49a9ea;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .contenedor{
     width: 100%;
@@ -79,6 +80,13 @@
     background-position: 50%;
     border-radius: 50%;
 }
+.imagperfil2{
+    height: 20px;
+    width: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
 .inputstyle{
     height: 40%;
     width: 80%;
@@ -111,10 +119,44 @@
     color: #49a9ea;
     cursor: pointer;
 }
+.coloriconos3{
+    color: #ffffff;
+    cursor: pointer;
+}
 .espaciochat{
     margin-right: 2%;
 }
 .context{
     margin-left: 15%;
     margin-right: 15%;
+}
+.estrella{
+    color: #49a9ea;
+}
+.circulo{
+    color: #22b573;
+}
+.botons1{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 0 solid;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+}
+.botons2{
+    background-color: #367197;
+    border: 0 solid;
+    padding: 5px 10px 5px 10px;
+    color: #ffffff;
+}
+.elementosn{
+    width: 98%;
+    display: flex;
+    align-items: center;
+}
+.letras{
+    color: white;
+    font-family: Roboto;
+    font-size: 14px;
+    margin-left: 20%;
+    margin-right: 10%;
 }
