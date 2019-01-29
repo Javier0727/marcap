@@ -106,6 +106,7 @@
     padding-left: 1%;
     font-family: Roboto;
     border-radius: .25rem;
+    background-color: #ffffff;
 }
 .inputstyle::-webkit-input-placeholder{
     color: #797979;
@@ -122,6 +123,7 @@
     margin-left: 5%;
     font-family: Roboto;
     border-radius: .25rem;
+    background-color: #ffffff;
 }
 .inputstyle3{
     background: url("../img/search-solid.svg") no-repeat scroll 0 0 transparent;
@@ -219,4 +221,19 @@
 .info{
     display: flex;
     align-items: center;
+}
+.acomodobarra{
+    margin-left: 10%;
+}
+.acomodobarracan{
+    margin-left: 10%;
+}
+.acomodo{
+    margin-left: 9%;
+}
+.selection{
+    color: #172135;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: #ffffff;
 }
