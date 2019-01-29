@@ -36,6 +36,12 @@
     width: 60%;
     background-repeat: no-repeat;
     background-position: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.logo:hover{
+    width: 70%;
+    transition: 1s;
 }
 .chat{
     width: 80%;
@@ -79,10 +85,8 @@
 .elementoschat{
     height: 90%;
     width: 95%;
-    /* background-color: #12113a; */
     display: flex;
     align-items: center;
-
 }
 .imagperfil{
     height: 40px;
@@ -90,6 +94,7 @@
     background-repeat: no-repeat;
     background-position: 50%;
     border-radius: 50%;
+    cursor: pointer;
 }
 .imagperfil2{
     height: 23px;
@@ -97,6 +102,7 @@
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
+    cursor: pointer;
 }
 .inputstyle{
     height: 40%;
@@ -129,7 +135,6 @@
     background: url("../img/search-solid.svg") no-repeat scroll 0 0 transparent;
     background-position: center right;
     background-size: 6%;
-    /* height: 10%; */
     width: 80%;
     border-radius: 10px;
     border: 0;
@@ -148,6 +153,9 @@
     color: #797979;
     cursor: pointer;
 }
+.coloriconos:hover{
+    color: #49a9ea;
+}
 .coloriconos2{
     color: #49a9ea;
     cursor: pointer;
@@ -163,6 +171,9 @@
     align-items: center;
     justify-content: center;
 }
+.coloriconos3:hover{
+    background-color: #12113a;
+}
 .espaciochat{
     margin-right: 2%;
 }
@@ -176,6 +187,13 @@
 .circulo{
     color: #22b573;
 }
+.circulo2{
+    color: #172135;
+    border: 1 solid #ffffff;
+}
+.circulo3{
+    color: #cccccc;
+}
 .botons1{
     background-color: rgba(255, 255, 255, 0.1);
     border: 0 solid;
@@ -184,6 +202,10 @@
     font-family: Roboto;
     font-size: 16px;
     border-radius: .25rem;
+    cursor: pointer;
+}
+.botons1:hover{
+    background-color: #367197;
 }
 .botons2{
     background-color: #367197;
@@ -195,6 +217,7 @@
     margin-left: 1%;
     margin-right: 1%;
     border-radius: .25rem;
+    cursor: pointer;
 }
 .elementosn{
     width: 98%;
@@ -236,4 +259,20 @@
     padding-top: 1%;
     padding-bottom: 1%;
     background-color: #ffffff;
+}
+.selection2{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: 1s;
+}
+.selection2:hover{
+    color: #172135;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: 500ms;
+}
+@media (min-width: 576px){
+    .left{
+        display: none;
+    }
 }
