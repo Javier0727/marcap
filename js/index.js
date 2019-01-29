@@ -1,8 +1,8 @@
     onload = function () {
         document.getElementById('bchat').scrollTop = document.getElementById('bchat').scrollHeight;
     }
+    contador = 1;
     function desplazar() {
-        var contador = 1;
         selector = document.getElementById("despla");
         if (contador == 1) {
             selector.style.left = "0%";

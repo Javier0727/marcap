@@ -286,9 +286,12 @@
         position: fixed;
         width: 70%;
         left: -100%;
+        transition: 500ms;
     }
     .menu{
         margin-right: 7%;
+        color: #ffffff;
+        cursor: pointer;
     }
     .chat{
         width: 100%;
